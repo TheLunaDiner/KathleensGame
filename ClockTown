@@ -1,0 +1,169 @@
+[This section of the log is an imaginary decompilation, or a recreation as an isometric pixel art video game, of a children’s Halloween party.]
+
+Floreasca Park 
+Bucharest, city of time. 
+Sunday, October 30th 2022
+4 o’clock pm. 
+Daylight savings time -1 hour
+Number of days of the war in Ukraine 2022: 9 months and 5 days
+
+[Draw the tilemap, add colliders, program the AI for the NPCs, build character controllers, dialogue systems, run program.] 
+
+Romani Ranch (actual name in MM)
+
+Romania is code written over itself so many times its impossible not to see the remnants of the old code. The area of Floreasca park was once known as Groapa Floreasca, or the Floreasca pit. In 1953, Bucharest was the site of a visit from foreign diplomats (?) and the government scrambled to clean up a city that had languished in ruin since the war. The Floreasca pit, which had become home to groups of poor Roma families, was a notable eye sore, a “gypsy slum” as reporters dubbed it, especially in Dorobanti, a neighborhood for the wealthy elite. In quick fashion the government erected a wall around the entire pit, nearly X acres, nearly 2 meters high. This wall served as a temporary solution until 1960, when the Romani families were forcibly removed from Floreasca, the pit filled in and the construction of a new city park began. 
+
+The park is not itself particularly lavish, only pleasant, with an ice rink that has been converted to a restaurant, multiple playgrounds and playing fields, a small outdoor bar called Gin n’ Tonic, with a clean portable toilet available to the public, as there are no public restrooms in Floreasca. The orange streetlamps that line the park’s walkways haunt it, and illuminate the edges of the barely perceptible play places abandoned except for a few groups of teenagers who laugh and vape and set off loud firecrackers that threaten the safety. 
+
+Floreasca is where I looked up through the rhizomatic negative spaces between the branches and the leaves of trees into the changing sky and thought, “my job now is to watch the time pass.” I have now watched summer days turn orange and ominous turn blue and brisk and hard. Floreasca is the constant in the equation of my life in Bucharest, a place that bridges the gap between Sabina’s life with Raya as a single mother to our co-parenthood, hinged on my first meeting with Raya on this same playground, and the first masquerades as a new family, painted as they were with a surreal sense of watching ourselves pace slowly behind our daughter, and taking turns pushing her in the swing. Sabina occasionally reminds me that there are other parks, and other places to take Raya to play, places that require more ambitious travel plans and are less likely to be perfectly, absolutely smooth and stress free. The way she leaned on Floreasca is the way I lean on it now, as one knowable, predictable afternoon or evening more than none. 
+
+Can we render the park in pixel art? 
+Reference the “map.” 
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class Countdown : MonoBehaviour {
+    public float timeStart = 60;
+    public Text textBox;
+
+	// Use this for initialization
+	void Start () {
+        textBox.text = timeStart.ToString();
+	}
+	
+	// Update is called once per frame 
+	void Update () {
+        timeStart -= Time.deltaTime;
+        textBox.text = Mathf.Round(timeStart).ToString();
+	}
+}
+
+
+Carnival of Time: where residents of Termina celebrate a sort of harvest festival and pray for good fortune. Afraid of the moon. 
+
+War’s sense of time. 
+
+If you think time is a precise science, ask yourself how two months can be equally weighted in terms of a child’s development (14 months old) when months don’t share the same number of days. 
+
+Wonder weeks. It’s a “What to expect” for parents, broken up in stages called “Leaps.”
+Leaps are the closest measurements of time to traditional game time systems, which though seemingly faithful to a real time clock, are actually more often based on the character’s progression. Leaps are based on the expected developmental steps of a “normal” child, language, motor skills, but can get as specific as picky eating or tantrums. 
+
+Leap 0: Up to 5 weeks
+Leap 1: 5 to 8 weeks
+Leap 2: 8 to 12 weeks
+Leap 3: 12 to 15 weeks
+Leap 4: 15 to 23 weeks
+Leap 5: 23-34 weeks
+Leap 6: 34-42 weeks
+Leap 7:
+Leap 8:
+Leap 9:
+Leap 10
+
+Time based on the development of the human brain. What happens to time when the brain is trying to destroy itself? What is Kathleen’s Leap? What is mine? How long until the moon crashes into Termina? 
+
+One: “What time is it?”
+Two: Holds out leg. “My tibia.”
+One: Thanks. 
+
+[Get a map of Floreasca for Git. Pixelize? Isometrate?] 
+
+The flaw with wonder weeks is that it ends at Leap 10. There is a tacit implication with this that although the brain may continue to develop past this age, its development ends. With a cursory extrapolation of the deceleration of the leaps we find that adults in their 30s and early 40s, roughly the age of the parents at the Halloween party, are most likely somewhere between Leap X and Leap Y. 
+
+For the Romanian children, for whom this approaching moon represents the greatest threat, are largely unaware, excited by the activities. The Ukrainian children all too aware, and though Ukrainian children have been in park for a few weeks now, none have been invited to this gathering, or, more fairly, none are in attendance. 
+
+Leap X is characterized by introduction of new baby stress to the brain’s chemistry, and the development of those in Leap X is the largest change in behavior...
+
+But leaps don’t have to stop in infancy. What is the leap of an Andreea? Her husband? The brain is constantly developing, after all. And though the milestones for each leap would be more abstract and difficult to TK, those leaps are there, they exist. 
+
+Pokemon statistics: HP, Attack, Defense, Special Attack, Special Defense, Speed
+
+Programming the AI of these NPCs requires placing them into separate categories. 
+
+The Carpathian Mountains give those of us on this side of them a subconscious sense of safety from the fighting due north. Suceava, the northern city where many of the refugees from Ukraine first settled after crossing into Romania, is only 275 miles from Bucharest, but the countries poor roadways and mountainous terrain makes the trip to Suceava by car a nearly seven hour trip.  
+
+More Russian and Ukrainian NPCs each week. Characters who become staples, mothers so alone and deeply overwhelmed that the park serves as a refuge. As a single mother Sabina took the Raya to the park twice daily, sometimes for two or three hours at a time. When we began dating I saw how difficult it was for her to be in the house with Raya, and we were always rushing out the door. In the park the mothers could find solace in the communal pact of children’s playgrounds...still many of the Romanian mothers couldn’t help pointing out that the Ukrainian children were “out of control,” and were often too old and big to be playing on equipment intended for toddlers. The older children weren’t all in school, as many Ukrainian mothers and daughters, especially the wealthier ones, were on their way to stay with friends or relatives farther away from the conflict. 
+
+Even if they can’t explain the differences in words, parents of small children are subliminally conscious of the differences in a child’s cries. 
+
+A girl sobbing on the swing set. She wasn’t a toddler, she must have been Leap Z or so, and her mother was sitting near her on a bench. Her mother scrolled through her phone and occasionally looked up annoyed at her daughter, though she didn’t say anything or seem particularly surprised. The annoyed look was the dried up surface of a face that had been crying for weeks. And hard life and hard strength had taught the mother how to stop crying the way it hadn’t yet taught her daughter. The frustration was one of time, that the terrible reality of their present position, daughter, swing, mother, bench, Bucharest Romania still shattered her daughter every moment it wasn’t occupied by some immediate thing. And for a girl her age, a swing didn’t distract. 
+
+The subliminal effect of being this close to a bloody war, with the refugees, reminders of war’s proximity, playing with your children in the park, children who haven’t known violence like this, and character-rewiring tyranny and 
+
+On the Floreasca parents’ Whatsapp a young mother new to the group asked, “Are we meeting at the old time or the new time?” which was almost certainly an awkward “can you believe this weather,” like interjection but which was met with the silence of thirty women who took the comment as pure idiocy. I took it as an interesting question. 
+
+Anton F: Leap 10 
+Tina F: Age 9
+Pumpkin size: Unknown //possible we took his. 
+Mother/Father: Y/Y //to both Anton, Tina and mother Andreea’s haunted chagrin. 
+
+At a spot in the park far enough from the playground that the party stood a chance of succeeding. Experienced parents parked their strollers far enough away from the action so the adult treats could be enjoyed in hidden peace. 
+
+Code for Andreea:
+Andreea as a tall, curly-haired witch running through the field with a collection of pumpkins and spidermen chasing her. Killing time while the remaining snack packs were collectively hidden and the clues could be rolled out to all the children simultaneously. 
+
+Andreea, whose command of motherhood is so effortless and natural as to put younger mothers instantly at ease with the simplest reassurance. It is normal. 
+
+Andreea’s weakness was hovering ominously away from the festivities, chatting with a couple of younger parents he seemed to know well enough. 
+
+Vaguely dangerous, dumb looking, dressed too young, too affectionate, too quick to anger, threatening air, the relief that if he’s there with his children today, he won’t be tomorrow. Other than scolding his one and a half year old as if the boy was four or five, I’d never seen him to do anything cruel or 
+
+But figures like this man don’t need to do anything to be experienced, and the threat of action is enough, certainly enough for the parents in the park to tolerate and in some cases, even enjoy him. Kicked his seven year old son for not giving a child her bike back as quickly as dad wanted. 
+
+EAST
+
+The park is line on its Eastern edge by apartment blocks. On the northeastern end are the new One towers, high-end residential condominium buildings that are visible all over Northern Bucharest. The price of a penthouse apartment in the One tower, something in the ballpark of 6 million euros, made the local news, and was repeated to me by more than one Romanian when the blue glass towers came into view. Even with the incredible interbelic mansions sprinkled around town being renovated by slick architecture firms with eyes on old-world luxury, it’s hard for Romanians to imagine anyone paying that much money to live in a flat. 
+
+Below One are blocs of flats more familiar to Bucharestian eyes. These blocs are omnipresent in the city, and though the apartments inside are often renovated luxuriously, the outside gives the impression of Soviet-era consolidation and the Ceausescu-era poverty and neglect that scarred their facades and tormented their entrances and gardens. Their uniformity makes them as simple to design and populate a map with as they were to build. 
+
+Now the outer limits of the map have been drawn.  
+
+The network of informational satellites that filters the news is both shockingly quick, and too slow. It doesn’t feel like daytime in Ukraine when it’s daytime in Romania. 
+
+The proximity of the Halloween party to the war in Ukraine. An NPC Russian in the park engaged with me on my way out, as he heard me speaking English with my wife. “Where are you from?” he asked. “I am from Russia” he told me, before I could answer him, with an emphasis as close to an apology as possible. It would be possible to program almost every action of this NPC, the hands tucked in the pockets of a members only jacket, the dull push of the hard rubber baby swing, but it would be a lie to code him as I had the others. There is a thing called Steganography, the hiding of one image (or any file, really) inside another. This happens through a process of encoding a file’s code, with the code of another image. 
+
+And if its true that the program code for NPC somehow trips over its own metadata, meaning the stored information somehow leaks out through the AI and changes its actions and responses, then we begin to see how a Russian man in a Romanian park could change the map. 
+
+WEST
+
+At the entrance to the park is a sign that reads “This park is closed for repairs.” It was months into our daily visits before S. pointed this out to me. What I had noticed is the disappearance of at least two playground obstacles, and the vague warnings posted in Romanian on certain others. The equipment itself is...and tortured with graffiti, 
+
+Andreea was one of the mothers who appealed to the local government to fix the damaged and dangerous playground equipment. Wrote a note to the mayor of Sector One, the woman who married us, Clothilde. 
+
+Playground equipment removed, leaving footprints of rectangular TK like floor plan holes in the red and green rubber covering. Filled in with sand. A perfect, nearly imperceptible punishment definitively Eastern European. Problem solved. Even the sand serves multiple purposes, and digs deeper into the pit the park once was. 
+
+The park is lined on its western edge by Strada Radu Beller, a vertical street that runs south into the busy Calea Dorobanti, the main thoroughfare of the Dorobanti neighborhood. This stretch of road is lined with luxury cars and high-end, expensive coffee shops that cater to a wealthy local crowd, mainly businessmen and women, parents mostly, in their thirties and forties. 
+
+
+Map feature: Ruin on its way. Parents familiar with the park remember the old toys, the Ukranian and Russian mothers arrived recently, and don’t stay long enough to see the park’s evolution towards ruin. Sadly, this ruin is the result of a revitalization attempt, like the old villas of Bucharest, whose haunting presence is preferable to their absence.
+
+A Slav is a Slav...for Romanians proud of being and island of Romans in a sea of Slavs, the distinction is important. Pair that with forty years of Soviet communism, during which Russian was mandatory in schools, you get a...
+
+The differences between Ukrainian and Russian is virtually impossible to detect for those without a working knowledge of either language, so it is only possible to identify a Ukrainian family from a Russian family by the fathers. Ukrainian men were required to stay behind and fight while their wives and children fled into Poland, Hungary and Romania. Most of these families fled within the first two months of the war. Russian families fled primarily after Putin established a draft for men under the age of TK, and the threat of war became real for a country that was being fed absurdist lies about its position in the conflict. 
+
+Ukrainian children and their mothers in Floreasca Park is a reminder to Romanian parents of the war’s proximity, and the threat of some sort of horrible countdown clock to Romania’s own involvement. It’s hard to code this countdown clock, as its ending is unknown. 
+Ruin is a new country with a new time. 
+It is a clock whose movement for the Romanian trick or treaters is a combination of an increasing number of Ukrainian refugees and Russian emigres, and a decreasing number of playground features, or to simplify, number of conversations held in English to holes dug in the Earth. This people over place, the loss of identity through displacement combined with a reshaping of the physical plane is something that happened to the Roma community nearly eighty years ago. The march towards potential ruin is not a countdown clock but a cyclical one, with the displacement of one people for another, and the filling of holes and the boring in of filled ones the binary opposites who one and zero over and over without end. 
+
+The psychic trauma of this place. 
+
+The trick or treaters are the children and grandchildren of the NPCs whose presence along the edges of this map, whose formalized language, signaled to its then residents that ruin was close at hand. 
+
+This is the time behind the time, and like the wonder weeks, a wheel of time so easy to remain oblivious to. 
+
+and the number of children in the parks in Romania swelled considerably. The level of English speaking among Romanians under, say, 40 is surprising to most English-speaking visitors. Still, the presence of the English language on the playground is more likely to be the result of communications between Ukrainian or Russian parents and Romanians, or a group of precocious Romanian teens fresh from English class, than it is because of the presence of a native English speaker. 
+
+English is a default language between Romanians and non-Romanian, and the fidelity level of the English conversations likely to be higher than almost anywhere else in non-English world.  
+
+Nothing changes one’s perception of the passing of time like war. The eerie part of Russia’s war with Ukraine is that it creates an ominous visual future for Romanians. Only a ruin can remind you of a moment’s status as the inevitable past of some future future, one that is as unknowable as the present moment is knowable. 
+
+hangs over the head of the park, and creates a feeling of past. I close my eyes and see the Halloween party through Raya’s eyes, as though it were my own childhood. The party games function as a series of puzzles through which the annexation of Bucharest to Russians may be avoided. Raya’s inability to participate in the children’s race could be balanced with my drubbing of the uncostumed, salt and pepper Saxon in the pink button-down shirt during the adults’. 
+
+
+Two of the sand-filled balloons hanging from the tree had been covered in ghost shrouds, drawing several of the older kids out from the pumpkin decorating station. It was certainly the intention to cover all of the balloons in similar costume, but the preparations for the party were hastily done by the mothers who organized the party, all of whom arrived with their children and all of whom are exceptionally productive with kids screaming for them and swirling around their legs. 
+
+Eight human months with Sabina and Raya. 
+
