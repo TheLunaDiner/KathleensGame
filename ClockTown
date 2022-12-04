@@ -1,11 +1,20 @@
-[This section of the log is an imaginary decompilation, or a recreation as an isometric pixel art video game, of a children’s Halloween party.]
+[This section of the log is an imaginary decompilation, or recreation, of a children’s Halloween party in a public park in Romania.]
 
-Floreasca Park 
+In southwest Termina sits Romani Ranch, a pastoral group of farm houses where Link meets a girl in floral tunic named Romani. Romani and her big sister Cremia run Romani Ranch, which is famous for its cow milk, dubbed "Chateau Romani." Romani asks Link for help defeating the ghostly aliens who have been abducting her cows. 
+Romani is a horse-whisperer, and in exchange for his heroice aid teaches Link a song to play on his Ocarina that will call his horse Epona to his side. 
+Link can also place a bet on a dog race in Romani Ranch. Just saying. 
+This side quest in Majora's Mask invites Link to use the Ocarina a few times, both to slow time and to speed it up. 
+There is a relationship in the game between childhood and adulthood, a progression to completion, that is sped up by Cremia's gift to Link: the Romani Mask, a cowhood. 
+
+On their way out of Romani Ranch, Cremia wonders aloud to Link if the moon is getting closer to them, and if it will crash. 
+Somewhere in this book there needs to be a detailed analysis of this fucking moon. My god. 
+
+Floreasca park, sector 1
 Bucharest, city of time. 
 Sunday, October 30th 2022
 4 o’clock pm. 
 Daylight savings time -1 hour
-Number of days of the war in Ukraine 2022: 9 months and 5 days
+Number of days of the war in Ukraine [2022]: 9 months and 5 days
 
 [Draw the tilemap, add colliders, program the AI for the NPCs, build character controllers, dialogue systems, run program.] 
 
@@ -15,7 +24,7 @@ Romania is code written over itself so many times its impossible not to see the 
 
 The park is not itself particularly lavish, only pleasant, with an ice rink that has been converted to a restaurant, multiple playgrounds and playing fields, a small outdoor bar called Gin n’ Tonic, with a clean portable toilet available to the public, as there are no public restrooms in Floreasca. The orange streetlamps that line the park’s walkways haunt it, and illuminate the edges of the barely perceptible play places abandoned except for a few groups of teenagers who laugh and vape and set off loud firecrackers that threaten the safety. 
 
-Floreasca is where I looked up through the rhizomatic negative spaces between the branches and the leaves of trees into the changing sky and thought, “my job now is to watch the time pass.” I have now watched summer days turn orange and ominous turn blue and brisk and hard. Floreasca is the constant in the equation of my life in Bucharest, a place that bridges the gap between Sabina’s life with Raya as a single mother to our co-parenthood, hinged on my first meeting with Raya on this same playground, and the first masquerades as a new family, painted as they were with a surreal sense of watching ourselves pace slowly behind our daughter, and taking turns pushing her in the swing. Sabina occasionally reminds me that there are other parks, and other places to take Raya to play, places that require more ambitious travel plans and are less likely to be perfectly, absolutely smooth and stress free. The way she leaned on Floreasca is the way I lean on it now, as one knowable, predictable afternoon or evening more than none. 
+Floreasca is where I look up through the rhizomatic negative spaces between the branches and the leaves of the trees into the changing sky and think, “All that's left now is to watch the time pass.” I have watched summer days turn orange and ominous blue and brisk and hard. Floreasca is the constant of my life in Bucharest, a place that bridges the gap between Sabina’s life with Raya as a single mother to our co-parenthood, hinged on my first meeting with Raya on this same playground, and our initial masquerades as a new family, painted as they were with a surreal sense of watching ourselves taking turns pushing her in the swing. Sabina occasionally reminds me that there are other parks, and other places to take Raya to play, places that require more ambitious travel plans and are less likely to be perfectly, absolutely smooth and stress-free. The way she leaned on Floreasca as a single mother is the way I lean on it now, as a single knowable, predictable afternoon or evening more than none. 
 
 Can we render the park in pixel art? 
 Reference the “map.” 
@@ -66,7 +75,7 @@ Leap 10
 Time based on the development of the human brain. What happens to time when the brain is trying to destroy itself? What is Kathleen’s Leap? What is mine? How long until the moon crashes into Termina? 
 
 One: “What time is it?”
-Two: Holds out leg. “My tibia.”
+Two: [Holds out leg] “My tibia, give or take.”
 One: Thanks. 
 
 [Get a map of Floreasca for Git. Pixelize? Isometrate?] 
