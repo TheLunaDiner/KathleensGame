@@ -1,5 +1,12 @@
 [This section of the log is an imaginary decompilation, or recreation, of a children’s Halloween party in a public park in Romania.]
 
+Bucharest, city of time. 
+Floreasca park, Sector 1
+Sunday, October 30th 2022
+4 o’clock pm. 
+Daylight savings time -1 hour
+Number of days of the war in Ukraine [2022]: 9 months and 5 days
+
 In exploring southwest Termina Link comes across Romani Ranch, a pastoral group of farm houses where Link meets a girl named Romani. Romani and her big sister Cremia run Romani Ranch, which is famous for its cow milk, dubbed "Chateau Romani." Romani asks Link for help defeating the ghostly aliens who have been abducting her cows at night. 
 Dressed in her floral tunic and headband, Romani is a Japanese vision of a young Roma woman. She is a horse-whisperer, and in exchange for his heroic aid teaches Link a song to play on his Ocarina that will call his horse Epona to his side. 
 On Romani Ranch, Link also meets a large woman with a basket on her head named Mamamu Yan who invites him to place a bet on a dog race. Just saying. 
@@ -11,12 +18,13 @@ On their way out of Romani Ranch, Cremia wonders aloud to Link if the moon is ge
 Somewhere in this book there needs to be a detailed analysis of this fucking moon. My god. 
 The tumorous nightlight moon.  
 
-Bucharest, city of time. 
-Floreasca park, Sector 1
-Sunday, October 30th 2022
-4 o’clock pm. 
-Daylight savings time -1 hour
-Number of days of the war in Ukraine [2022]: 9 months and 5 days
+
+
+Parcul Floreasca, Bucharest 44.46468412049463, 26.097815302027836
+Kyiv, Ukraine 50.675799175232946, 30.48919115384774
+East Village, New York 40.72655059666746, -73.98181025945813
+
+It's a very narrow triangle. 
 
 [Draw the tilemap, add colliders, program the AI for the NPCs, build character controllers, dialogue systems, run debug.] 
 
@@ -26,7 +34,7 @@ Romania's code has been written over itself so many times its impossible not to 
 
 The park is pleasant, with the remnants of a Soviet-era ice rink that's been converted to a restaurant, multiple playgrounds and playing fields, monuments and outdoor sculptures, and a small outdoor bar called Gin n’ Tonic, with a clean portable toilet available to the public, as there are no public restrooms in Floreasca. The orange streetlamps that line the park’s walkways haunt it, and illuminate the edges of the barely perceptible play places abandoned except for a few groups of teenagers who laugh and vape and set off loud firecrackers that threaten the park's tranquility. 
 
-Floreasca is where I look up through the rhizomatic negative spaces between the branches and the leaves of the trees into the changing sky and think, “All that's left now is to watch the time pass.” I have watched summer days turn orange and ominous blue and brisk and hard. Floreasca is the constant of my life in Bucharest, a place that bridges the gap between Sabina’s life with Raya as a single mother to our co-parenthood, hinged on my first meeting with Raya on this same playground, and our initial masquerades as a new family, painted as they were with a surreal sense of watching ourselves taking turns pushing her in the swing. Sabina occasionally reminds me that there are other parks, and other places to take Raya to play, places that require more ambitious travel plans and are less likely to be perfectly smooth and stress-free. The way she leaned on Floreasca as a single mother is the way I lean on it now, as one knowable, predictable afternoon or evening more than none. 
+Floreasca is where I look up through the rhizomatic negative spaces between the branches and the leaves of the trees into the changing sky and think, “All that's left now is to watch the time pass.” I have watched summer days turn orange, blue, brisk and hard. Floreasca is the constant of my life in Bucharest, a place that bridges the gap between Sabina’s life with Raya as a single mother to our co-parenthood, hinged on my first meeting with Raya on this same playground, and our initial masquerades as a new family, painted as they were with a surreal sense of watching ourselves taking turns pushing her in the swing. Sabina occasionally reminds me that there are other parks, and other places to take Raya to play, places that require more ambitious travel plans and are less likely to be perfectly smooth and stress-free. The way she leaned on Floreasca as a single mother is the way I lean on it now, as one knowable, predictable afternoon or evening more than none. 
 
 Can we render the park in pixel art? 
 Reference the “map.” 
@@ -98,9 +106,28 @@ Tina F: Leap 15
 Pumpkin size: Unknown //It's possible we took theirs. 
 Mother/Father: Y/Y //to both Anton, Tina and mother Andreea’s disappointment. 
 
+Dragos
+
+From Ethan, a member of the ZRET team: "oot has a notable dev who did most of the work on bosses named Morita. he's become infamous in the oot decomp community for having a very particular software design style, which we're able to see in the compiler-generated code that we are reverse-engineering
+things like that are just so crazy to me - that we know this guy's coding style based on work he did 25+ years ago, simply from looking at machine code the compiler generated"
+
+Kazuaki Morita: a self-taught programmer who worked on the original Super Mario Bros. and Zelda games. Like Ethan, I too think it's interesting that code could have a brushstroke, so to speak, so that the programmer behind it could be identifiable years later. Morita became famous for programming the bosses for games like Zelda: Majora's Mask, kind of an amazing specialization. If our scene is to have a big bad boss, then we should channel Morita when defining it. 
+
+Position: chatting with a couple of younger parents he seemed to know, and who seemed less visible offput by his general presence as the others. 
+
+Vaguely dangerous, dumb looking, dressed too young, chav/slav-y, too roughly affectionate, too quick to anger, threatening, the relief that if he’s there with his children today, he won’t be tomorrow. Other than scolding his one and a half year old as if the boy was four or five, I’d never seen him do anything cruel, but he puts me off immediately, and begs the question "what is she doing with him" from I can only guess every mother in the park. 
+
+Romanians, like many, have a natural instinct to rationalize and soften the inexplicable shittiness of men, not out of compassion or complicity, but out of an urge to paint reality with an optimistic brush. 
+
+His presence is a reminder to me of M, my big boss, Sabina's ex-boyfriend and Raya's biological father. M has seemingly given up his right to become Dragos in the park, haunting his children with an impermiable plasma of casual cruelty and the threat of violent anger, but his absence has created a presence in my mind that his presence never could. The potential is there, so I can't entirely forget about him. His silence is an assault on the three of us, the way a distant war is. 
+
+Figures like Dragos don’t need to do anything to be experienced, and the threat of action is enough, certainly enough for the parents in the park to tolerate and in some cases, even enjoy him. Kicked his seven year old son for not giving a child her bike back as quickly as dad wanted. 
+
+---
+
 The Carpathian Mountains give those of us on this side a subconscious sense of safety from the fighting due north. Suceava, the northern Romanian city where many refugees from Ukraine first settled after crossing the border, is only 275 miles from Bucharest, but the country's poor roadways and mountainous terrain makes the trip to Suceava by car a nearly seven hour mission.   
 
-More Russian and Ukrainian NPCs each week. Characters who become staples, mothers so alone and deeply overwhelmed that the park serves as a refuge. As a single mother Sabina took the Raya to the park twice daily, sometimes for two or three hours at a time. When we began dating I saw how difficult it was for her to be in the house with Raya, and we were always rushing out the door. In the park the mothers could find solace in the communal pact of children’s playgrounds, could pee without anxiety, still many of the Romanian mothers couldn’t help pointing out that the Ukrainian children were “out of control,” and were often too old and big to be playing on equipment intended for toddlers. The older children weren’t all in school, as many Ukrainian mothers and daughters, especially the wealthier ones, were on their way to stay with friends or relatives farther away from the conflict. 
+More Russian and Ukrainian NPCs each week. Characters who become staples, mothers so alone and deeply overwhelmed that the park serves as a refuge. As a single mother Sabina took the Raya to the park twice daily, sometimes for two or three hours at a time. When we began dating I saw how difficult it was for her to be in the house with Raya, and we were always rushing out the door. In the park the mothers could find solace in the communal pact of children’s playgrounds, could pee without anxiety, still many of the Romanian mothers couldn’t help pointing out that the Ukrainian children were “out of control,” and were often too old and big to be playing on equipment intended for toddlers. The older children weren’t all in school, as many Ukrainian mothers, sons and daughters, especially the wealthier ones, were on their way to stay with friends or relatives farther away from the conflict. 
 
 Even if they can’t explain the differences in words, parents of small children are subliminally conscious of the differences in a child’s cries. 
 
@@ -113,15 +140,10 @@ On the Floreasca parents’ Whatsapp a young mother new to the group asked, “A
 At a spot in the park far enough from the playground that the party stood a chance of succeeding. Experienced parents parked their strollers far enough away from the action so the adult treats could be enjoyed in hidden peace. 
 
 Code for Andreea:
-Andreea as a tall, curly-haired witch running through the field with a collection of pumpkins and spidermen chasing her. Killing time while the remaining snack packs were collectively hidden and the clues could be rolled out to all the children simultaneously. 
+Andreea as a tall, curly-haired brunette witch running through the field with a collection of pumpkins and spidermen chasing her. Killing time while the remaining snack packs were collectively hidden and the clues could be rolled out to all the children simultaneously. 
 
-Andreea, whose command of motherhood is so effortless and natural as to put younger mothers instantly at ease with the simplest reassurance. It is normal. 
+Andreea, whose command of motherhood is so effortless and natural as to put younger mothers instantly at ease with the simplest reassurance ie "it's normal, oh mine didn't blank til last month, it's public and nearby and we like it etc." Standing up while breastfeeding and comforting new moms.
 
-Andreea’s weakness was hovering ominously away from the festivities, chatting with a couple of younger parents he seemed to know, and who seemed less visible offput by his general presence as the others. 
-
-Vaguely dangerous, dumb looking, dressed too young, too roughly affectionate, too quick to anger, threatening air, the relief that if he’s there with his children today, he won’t be tomorrow. Other than scolding his one and a half year old as if the boy was four or five, I’d never seen him to do anything cruel 
-
-But figures like this man don’t need to do anything to be experienced, and the threat of action is enough, certainly enough for the parents in the park to tolerate and in some cases, even enjoy him. Kicked his seven year old son for not giving a child her bike back as quickly as dad wanted. 
 
 EAST
 
@@ -155,7 +177,7 @@ Nothing changes one’s perception of the passing of time like war. The eerie pa
  
 It is a clock whose movement for the Romanian trick or treaters is a combination of an increasing number of Ukrainian refugees and Russian emigres, and a decreasing number of playground features, or to simplify, number of conversations held in English to holes dug in the Earth. This people over place, the loss of identity through displacement combined with a reshaping of the physical plane is something that happened to the Roma community nearly eighty years ago. The march towards potential ruin is not a countdown clock but a cyclical one, with the displacement of one people for another, and the filling of holes and the boring in of filled ones the binary opposites who one and zero over and over without end. 
 
-The trick or treaters are the children and grandchildren of the NPCs whose presence along the edges of this map, whose formalized language, signaled to its Roma residents that ruin was close at hand. This is the time behind the time, and like the wonder weeks, a wheel of time so easy to remain oblivious to. 
+The trick or treaters are the children and grandchildren of the NPCs whose presence along the edges of this map, whose formalized language, signaled to its Roma residents that ruin was close at hand. This is the time behind time, and like Wonder Weeks, a wheel of time that is easy to remain oblivious to. 
 
 English is a default language between Romanians and non-Romanian, and the fidelity level of the English conversations likely to be higher than almost anywhere else in non-English world.  
 
